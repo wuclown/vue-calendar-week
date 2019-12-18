@@ -1,0 +1,51 @@
+{
+    "name": "vue-calendar-week",
+    "version": "1.0.5",
+    "description": "基于 hammerjs vue滑动周日历切换",
+    "main": "component/index.js",
+    "private": false,
+    "scripts": {
+        "dev": "webpack-dev-server --progress --config build/webpack.dev.config.js",
+        "build": "webpack --config build/webpack.prod.config.js",
+        "demo": "webpack --config build/webpack.demo.config.js"
+    },
+    "keywords": [
+        "vue-calendar-week",
+        "vue-calendar",
+        "calendar",
+        "week",
+        "日历",
+        "周日历",
+        "滑动日历"
+    ],
+    "author": "clown",
+    "license": "ISC",
+    "homepage": "",
+    "devDependencies": {
+        "@babel/core": "^7.7.2",
+        "@babel/preset-env": "^7.7.1",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-syntax-jsx": "^6.18.0",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.2.0",
+        "file-loader": "^5.0.2",
+        "friendly-errors-webpack-plugin": "^1.7.0",
+        "html-webpack-plugin": "^3.2.0",
+        "less": "^3.10.3",
+        "less-loader": "^5.0.0",
+        "style-loader": "^1.0.0",
+        "url-loader": "^2.2.0",
+        "vue-loader": "^15.7.2",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0",
+        "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "@better-scroll/core": "^2.0.0-beta.2",
+        "hammerjs": "^2.0.8",
+        "vue": "^2.6.10"
+    }
+}
