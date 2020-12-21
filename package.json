@@ -1,6 +1,6 @@
 {
     "name": "vue-calendar-week",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "description": "基于 hammerjs vue滑动周日历切换",
     "main": "component/index.js",
     "private": false,

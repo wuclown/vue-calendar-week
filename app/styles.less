@@ -1,0 +1,49 @@
+.clown-calendar-week {
+    width: 100%;
+    background-color: white;
+    > .head {
+        height: 36px;
+        display: flex;
+        align-items: center;
+        > .week {
+            flex: 1;
+            text-align: center;
+            color: #a0a0a0;
+        }
+    }
+    > .content {
+        width: 100%;
+        overflow: hidden;
+        > .group-date {
+            width: 300%;
+            height: 44px;
+            display: flex;
+            > .calendars-slider-week {
+                width: 33.33%;
+                height: inherit;
+                display: flex;
+                > .day {
+                    flex: 1;
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    > span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 36px;
+                        height: 36px;
+                        border-radius: 50%;
+                    }
+                    &.active {
+                        > span {
+                            color: white;
+                            background-color: #31aaff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
